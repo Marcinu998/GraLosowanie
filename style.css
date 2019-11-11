@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+
+}
+
+html {
+    background: url(/img/sunrise-1030592.jpg);
+}
+
+body {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+.panel {
+    margin: 20px;
+}
+
+.panel-left,
+.panel-right {
+    display: inline-block;
+    width: 48%;
+    overflow: hidden;
+    margin: 40px auto 0;
+    text-align: center;
+}
+
+.panel-left p {
+    font-size: 20px;
+}
+
+.panel h3 {
+    text-align: center;
+}
+
+h1,
+h3 {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.select {
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.select img {
+    width: 200px;
+    margin: 40px;
+    display: inline-block;
+}
+
+button {
+    display: block;
+    padding: 5px 20px;
+    border: 2px solid black;
+    text-transform: uppercase;
+    background-color: #fff;
+    font-weight: bold;
+    margin: 10px auto;
+    transition: .3s;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+span {
+    font-weight: bold;
+}
+
+@media (orientation: portrait) and (min-width: 360px) {
+    h1 {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .select img {
+        width: 100px;
+        margin: 10px;
+        display: inline-block;
+
+    }
+
+    button {
+        font-size: 20px;
+    }
+
+    .panel-left,
+    .panel-right {
+        display: inline-block;
+        width: 48%;
+        overflow: hidden;
+        margin: 10px auto 0;
+        text-align: center;
+
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        margin: 10px;
+    }
+}
+
+
+@media (orientation: portrait) and (min-width: 768px) {
+    h1 {
+        font-size: 20px;
+        margin: 30px;
+    }
+
+    .select img {
+        width: 150px;
+        margin: 10px;
+        display: inline-block;
+
+    }
+
+    button {
+        font-size: 25px;
+    }
+
+    .panel-left,
+    .panel-right {
+        display: inline-block;
+        width: 48%;
+        overflow: hidden;
+        margin: 10px auto 0;
+        text-align: center;
+
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        margin: 10px;
+    }
+}
+
+@media (orientation: landscape) {
+
+    .welcome {
+        top: 15%;
+        left: 0%;
+        right: 48%;
+    }
+
+    header button {
+        margin-top: 40px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 640px) {
+    h1 {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .select img {
+        width: 80px;
+        margin: 10px;
+        display: inline-block;
+
+    }
+
+    button {
+        font-size: 15px;
+        margin: 5px auto;
+
+    }
+
+    .panel-left,
+    .panel-right {
+        display: inline-block;
+        width: 48%;
+        overflow: hidden;
+        margin: auto 0;
+        text-align: center;
+        font-size: 15px;
+
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+        margin: 5px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+    h1 {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .select img {
+        width: 150px;
+        margin: 30px;
+    }
+
+    button {
+        font-size: 20px;
+        margin: 5px auto;
+
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 20px;
+        margin: 5px;
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 1500px) {
+    h1 {
+        font-size: 25px;
+        margin: 20px;
+    }
+
+    .select img {
+        width: 200px;
+        margin: 40px;
+    }
+
+    button {
+        font-size: 25px;
+        margin: 5px auto;
+
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 25px;
+        margin: 15px;
+    }
+
+}
+
+@media(min-width: 1024px) {
+    header button {
+        cursor: pointer;
+        transition: 1s;
+        padding: 20px;
+    }
+
+    header button:hover {
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+}
